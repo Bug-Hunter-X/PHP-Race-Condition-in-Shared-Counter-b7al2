@@ -1,0 +1,3 @@
+# PHP Race Condition in Shared Counter
+
+This repository demonstrates a race condition in PHP when multiple processes concurrently access and modify a shared counter.  The `bug.php` file shows the problematic code, while `bugSolution.php` illustrates how to fix the issue using a mutex lock.  The race condition results in the counter not accurately reflecting the total number of increments when executed concurrently.
